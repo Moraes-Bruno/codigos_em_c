@@ -9,9 +9,9 @@ int main(){
         }
 
         for(int i=0;i<5;i++){
-            printf("\n Media do aluno i%: %.2f",i,medias[i]);
+            printf("\n Media do aluno %i: %.2f",i,medias[i]);
         }
 
-        printf("\n media geral da sala %.2f",mediageral/5);
+        printf("\n media geral da sala %.1f",mediageral/5);
 
 }

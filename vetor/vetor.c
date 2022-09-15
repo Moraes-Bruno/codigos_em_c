@@ -9,7 +9,7 @@ float calcularmedia(){
         }
 
         for(int i=0;i<5;i++){
-            printf("\n Media do aluno i%: %.2f",i,medias[i]);
+            printf("\n Media do aluno %i: %.2f",i,medias[i]);
         }
 
         printf("\n media geral da sala %.2f",mediageral/5);
@@ -18,9 +18,9 @@ float calcularmedia(){
 }
 
 int main(){
-    float mediageral=0;
+    
 
-    mediageral = calcularmedia();
+   calcularmedia();
 
 
 
